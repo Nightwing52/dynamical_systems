@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt producer="main bin" root="/home/tyler" title="Anonymous Submission" version="6.0.0" LC_NUMERIC="en_US.UTF-8">
+ <profile height="1080" display_aspect_num="16" frame_rate_num="60" description="HD 1080p 60 fps" colorspace="709" sample_aspect_num="1" progressive="1" sample_aspect_den="1" display_aspect_den="9" width="1920" frame_rate_den="1"/>
+ <producer out="10499" in="0" id="4">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:02:55:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">Python/dynamical_systems/turing_patterns/media/out.mp4</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">40</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">40</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">69761</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.40.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.frame_rate_num">40</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:file_size">1586847</property>
+  <property name="kdenlive:file_hash">766984ee67151c2582586ba593e6c66e</property>
+ </producer>
+ <producer out="299" in="0" id="6">
+  <property name="mlt_type">producer</property>
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">Python/dynamical_systems/turing_patterns/media/init.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">8309010</property>
+  <property name="kdenlive:file_hash">213abc88ad64717bfe7bfe54babcf632</property>
+ </producer>
+ <producer out="299" title="Anonymous Submission" in="0" id="5">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">Python/dynamical_systems/turing_patterns/media/final.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+  <property name="kdenlive:file_size">8309010</property>
+  <property name="kdenlive:file_hash">af8585f47f5eea4312f01c235943f065</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <playlist kdenlive:customeffects="&lt;customeffects/>&#xa;" id="main bin">
+  <property name="kdenlive:docproperties.documentid">1623697637310</property>
+  <property name="kdenlive:docproperties.enableproxy">0</property>
+  <property name="kdenlive:docproperties.generateimageproxy">0</property>
+  <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.kdenliveversion">15.12.3</property>
+  <property name="kdenlive:docproperties.position">2341</property>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_60</property>
+  <property name="kdenlive:docproperties.projectfolder">kdenlive</property>
+  <property name="kdenlive:docproperties.proxyextension">mpg</property>
+  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
+  <property name="kdenlive:docproperties.proxyminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyparams">-s 640x480 -g 5 -qscale 6 -ab 128k -vcodec mpeg2video -acodec mp2</property>
+  <property name="kdenlive:docproperties.version">0.91</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">100</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:documentnotes"/>
+  <property name="kdenlive:clipgroups">&lt;groups/>
+</property>
+  <property name="kdenlive:docproperties.renderaudiobitrate">160</property>
+  <property name="kdenlive:docproperties.renderbitrate">20</property>
+  <property name="kdenlive:docproperties.rendercategory">MP4</property>
+  <property name="kdenlive:docproperties.renderendguide">-1</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">H.264/AAC fast</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">1080</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">1920</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderstartguide">-1</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">Python/dynamical_systems/turing_patterns/media/edit.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
+  <property name="xml_retain">1</property>
+  <entry producer="4" out="10499" in="0"/>
+  <entry producer="6" out="299" in="0"/>
+  <entry producer="5" out="299" in="0"/>
+ </playlist>
+ <producer out="500" in="0" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry producer="black" out="2341" in="0"/>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:track_name">Audio 2</property>
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist2">
+  <property name="kdenlive:track_name">Audio 1</property>
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:track_name">Video 3</property>
+ </playlist>
+ <producer out="1499" in="0" id="slowmotion:4:7">
+  <property name="mlt_type">producer</property>
+  <property name="length">1500</property>
+  <property name="eof">pause</property>
+  <property name="resource">Python/dynamical_systems/turing_patterns/media/out.mp4?7</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+  <property name="strobe">1</property>
+ </producer>
+ <producer out="3499" in="0" id="slowmotion:4:3">
+  <property name="mlt_type">producer</property>
+  <property name="length">3500</property>
+  <property name="eof">pause</property>
+  <property name="resource">Python/dynamical_systems/turing_patterns/media/out.mp4?3</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+  <property name="strobe">1</property>
+ </producer>
+ <playlist id="playlist4">
+  <property name="kdenlive:track_name">Video 2</property>
+  <property name="kdenlive:locked_track">0</property>
+  <property name="kdenlive:composite">1</property>
+  <entry producer="6" out="176" in="0"/>
+  <entry producer="4" out="445" in="0"/>
+  <entry producer="slowmotion:4:7" out="1230" in="64"/>
+  <entry producer="slowmotion:4:3" out="3123" in="2872"/>
+  <entry producer="5" out="299" in="0"/>
+ </playlist>
+ <playlist id="playlist5">
+  <property name="kdenlive:track_name">Video 1</property>
+  <property name="kdenlive:locked_track">0</property>
+  <property name="kdenlive:composite">1</property>
+ </playlist>
+ <tractor out="2341" title="Anonymous Submission" in="0" global_feed="1" id="maintractor">
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist2" hide="video"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition4">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="version">0.9</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition5">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition6">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+</mlt>
